@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "business_name": "Tech Solutions Inc.",
+    "api_version": "v1.0",
+    "documentation_url": "https://techsolutions.com/api/docs"
+  },
+  "pagination": {
+    "total_pages": 3,
+    "items_per_page": 2,
+    "current_page": 1
+  },
+  "pages": [
+    {
+      "page": 1,
+      "data": [
+        {
+          "id": 201,
+          "project_name": "E-Commerce Platform",
+          "client": "Startup Hub",
+          "status": "In Progress",
+          "budget": 15000,
+          "currency": "EUR"
+        },
+        {
+          "id": 202,
+          "project_name": "AI Chatbot Integration",
+          "client": "Global Retail Ltd.",
+          "status": "Completed",
+          "budget": 5000,
+          "currency": "EUR"
+        }
+      ],
+      "next_url": "/api/projects?page=2"
+    },
+    {
+      "page": 2,
+      "data": [
+        {
+          "id": 203,
+          "project_name": "Cloud Migration",
+          "client": "Innovatech Corp.",
+          "status": "Pending",
+          "budget": 20000,
+          "currency": "USD"
+        },
+        {
+          "id": 204,
+          "project_name": "API Automation Suite",
+          "client": "Eco Solutions",
+          "status": "In Progress",
+          "budget": 8000,
+          "currency": "EUR"
+        }
+      ],
+      "next_url": "/api/projects?page=3"
+    },
+    {
+      "page": 3,
+      "data": [
+        {
+          "id": 205,
+          "project_name": "Mobile App Development",
+          "client": "Future Labs",
+          "status": "In Progress",
+          "budget": 12000,
+          "currency": "JPY"
+        },
+        {
+          "id": 206,
+          "project_name": "Cybersecurity Upgrade",
+          "client": "Green Ventures",
+          "status": "Completed",
+          "budget": 10000,
+          "currency": "ZAR"
+        }
+      ],
+      "next_url": null
+    }
+  ]
+}
