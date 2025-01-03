@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "company": "Products Inc.",
+    "api_version": "v1.0",
+    "last_updated": "2025-01-01T11:50:00Z",
+    "documentation_url": "https://productsinc.com/api/docs"
+  },
+  "pagination": {
+    "total_items": 4,
+    "total_pages": 3,
+    "items_per_page": 2,
+    "current_page": 1
+  },
+  "pages": [
+    {
+      "page": 1,
+      "data": [
+        {
+          "id": 1,
+          "name": "Product 1",
+          "price": 10.99,
+          "category": "Electronics"
+        },
+        {
+          "id": 2,
+          "name": "Product 2",
+          "price": 15.49,
+          "category": "Home"
+        }
+      ],
+      "next_url": "/api/products?page=2",
+      "cursor_expiry": "2025-01-01T12:00:00Z",
+      "note": "First page of results, cursor expires soon."
+    },
+    {
+      "page": 2,
+      "data": [],
+      "next_url": "/api/products?page=3",
+      "cursor_expiry": "2025-01-01T12:05:00Z",
+      "note": "No data available on this page."
+    },
+    {
+      "page": 3,
+      "data": [
+        {
+          "id": 3,
+          "name": "Product 3",
+          "price": 20.00,
+          "category": "Beauty"
+        },
+        {
+          "id": 4,
+          "name": "Product 4",
+          "price": 12.75,
+          "category": "Sports"
+        }
+      ],
+      "next_url": null,
+      "cursor_expiry": "2025-01-01T12:10:00Z",
+      "note": "Final page of results."
+    }
+  ]
+}
+ 
