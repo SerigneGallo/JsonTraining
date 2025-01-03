@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "business_name": "Tech Solutions Inc.",
+    "api_version": "v1.0",
+    "documentation_url": "https://techsolutions.com/api/docs"
+  },
+  "pagination": {
+    "total_pages": 3,
+    "items_per_page": 2,
+    "current_page": 1
+  },
+  "pages": [
+    {
+      "page": 1,
+      "data": [
+        {
+          "id": 101,
+          "client_name": "Startup Hub",
+          "location": "London, UK",
+          "active_projects": 2
+        },
+        {
+          "id": 102,
+          "client_name": "Global Retail Ltd.",
+          "location": "Dakar, Senegal",
+          "active_projects": 1
+        }
+      ],
+      "next_url": "/api/clients?page=2"
+    },
+    {
+      "page": 2,
+      "data": [
+        {
+          "id": 103,
+          "client_name": "Innovatech Corp.",
+          "location": "New York, USA",
+          "active_projects": 3
+        },
+        {
+          "id": 104,
+          "client_name": "Eco Solutions",
+          "location": "Berlin, Germany",
+          "active_projects": 1
+        }
+      ],
+      "next_url": "/api/clients?page=3"
+    },
+    {
+      "page": 3,
+      "data": [
+        {
+          "id": 105,
+          "client_name": "Future Labs",
+          "location": "Tokyo, Japan",
+          "active_projects": 2
+        },
+        {
+          "id": 106,
+          "client_name": "Green Ventures",
+          "location": "Cape Town, South Africa",
+          "active_projects": 1
+        }
+      ],
+      "next_url": null
+    }
+  ]
+}
