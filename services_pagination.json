@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "business_name": "Tech Solutions Inc.",
+    "api_version": "v1.0",
+    "documentation_url": "https://techsolutions.com/api/docs"
+  },
+  "pagination": {
+    "total_pages": 3,
+    "items_per_page": 2,
+    "current_page": 1
+  },
+  "pages": [
+    {
+      "page": 1,
+      "data": [
+        {
+          "id": 1,
+          "service_name": "Custom Software Development",
+          "description": "Building tailored software solutions for businesses.",
+          "price_per_hour": 120,
+          "currency": "EUR"
+        },
+        {
+          "id": 2,
+          "service_name": "AI Agent Integration",
+          "description": "Developing and integrating AI agents into workflows.",
+          "price_per_project": 5000,
+          "currency": "EUR"
+        }
+      ],
+      "next_url": "/api/services?page=2"
+    },
+    {
+      "page": 2,
+      "data": [
+        {
+          "id": 3,
+          "service_name": "API Automation",
+          "description": "Streamlining processes using APIs and automation tools.",
+          "price_per_hour": 100,
+          "currency": "EUR"
+        },
+        {
+          "id": 4,
+          "service_name": "Technical Consulting",
+          "description": "Providing expert guidance on technical strategies.",
+          "price_per_hour": 150,
+          "currency": "EUR"
+        }
+      ],
+      "next_url": "/api/services?page=3"
+    },
+    {
+      "page": 3,
+      "data": [
+        {
+          "id": 5,
+          "service_name": "Cloud Migration",
+          "description": "Helping businesses migrate to the cloud seamlessly.",
+          "price_per_project": 8000,
+          "currency": "EUR"
+        },
+        {
+          "id": 6,
+          "service_name": "Cybersecurity Assessment",
+          "description": "Assessing and improving your business's cybersecurity posture.",
+          "price_per_project": 6000,
+          "currency": "EUR"
+        }
+      ],
+      "next_url": null
+    }
+  ]
+}
